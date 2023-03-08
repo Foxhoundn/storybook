@@ -46,7 +46,6 @@ The following `autoplay` configurations are equivalent:
   paths={[
     'common/api-doc-block-story-parameter.js.mdx',
     'common/api-doc-block-story-parameter.ts.mdx',
-    'common/api-doc-block-story-parameter.ts-4-9.mdx',
   ]}
 />
 

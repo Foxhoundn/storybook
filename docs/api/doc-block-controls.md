@@ -46,7 +46,6 @@ The following `exclude` configurations are equivalent:
   paths={[
     'common/api-doc-block-controls-parameter.js.mdx',
     'common/api-doc-block-controls-parameter.ts.mdx',
-    'common/api-doc-block-controls-parameter.ts-4-9.mdx',
   ]}
 />
 

@@ -46,7 +46,6 @@ The following `sourceState` configurations are equivalent:
   paths={[
     'common/api-doc-block-canvas-parameter.js.mdx',
     'common/api-doc-block-canvas-parameter.ts.mdx',
-    'common/api-doc-block-canvas-parameter.ts-4-9.mdx',
   ]}
 />
 
@@ -68,6 +67,7 @@ The example above applied the parameter at the [story](../writing-stories/parame
 
 Type:
 
+<!-- prettier-ignore-start -->
 ```ts
 Array<{
   title: string | JSX.Element;
@@ -76,6 +76,7 @@ Array<{
   disabled?: boolean;
 }>
 ```
+<!-- prettier-ignore-end -->
 
 Default: `parameters.docs.canvas.additionalActions`
 
@@ -162,7 +163,7 @@ Specifies which story's source is displayed.
 
 ### `source`
 
-Type: `'code' | 'format' | 'language' | 'type'`
+Type: `SourceProps['code'] | SourceProps['format'] | SourceProps['language'] | SourceProps['type']`
 
 Specifies props passed to the inner `Source` block. See [SourceProps](./doc-block-source.md#sourceprops).
 
@@ -186,7 +187,7 @@ Specifies the initial state of the source panel.
 
 ### `story`
 
-Type: `'inline' | 'height' | 'autoplay'`
+Type: `StoryProps['inline'] | StoryProps['height'] | StoryProps['autoplay']`
 
 Specifies props passed to the inner `Story` block. See [StoryProps](./doc-block-story.md#storyprops).
 
